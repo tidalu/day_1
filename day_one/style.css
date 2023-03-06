@@ -1,0 +1,209 @@
+ /*	selector {
+			property: value;
+		}*/
+    @font-face {
+      font-family: "ITC Serif Gothic Heavy";
+      src: url("font/itc/hell/heyyo.otf")format("opentype");
+    }
+
+    /* *{ it is universal selector for everythng written there
+			font-size: ;
+		}
+*/
+    #main_title {
+      /*color: #00ff00;color: rgb(0,0,255);*/
+      font-family: Serif, Verdana, Georgia;
+      
+      font-style: italic;
+      /*oblique */
+      font-size: 36px;
+      font-weight: lighter;
+      /*bold, lighter, bolder  normal
+			*/
+      text-align: center;
+      /*left, justify(for contet each line with the same width), right*/
+      letter-spacing: 10px;
+
+    }
+
+    body {
+      background-color: green;
+
+      /*background-image: url("img.jpg");
+			background-position: 400px 50px;
+			background-repeat:  no-repeat;repeat-x, repeat-y 
+			background-attachment: fixed;*/
+    }
+
+    #about {
+
+      /*padding-top: 55px;
+			padding-bottom: 30px;
+			border-style: solid; /*dotted, solid, inset, outset
+			border-width: 10px;
+			border-color: orange;
+			border-left-color: magenta;
+			border-bottom-color: purple;
+			*/
+      border: 5px solid blue;
+
+    }
+
+    #about_1,
+    #about {
+      word-spacing: 5px;
+      line-height: 1;
+      padding: 10px;
+      color: white;
+      margin: 0px;
+    }
+
+    #about_1 {
+
+      border: 5px solid orange;
+
+    }
+
+    /*div p{
+			// hello it applies for the paragraph when only it is inside of the div!!!
+		}
+
+		body > p {
+			//it applies to the p which is the child of the body , for example maybe div also has p in it, but it cannnot be the child of the body so it cannot apply toi that!!!
+		}*/
+    a:link {
+      color: white;
+
+    }
+
+    a:hover,
+    a:visited:hover {
+      color: yellow;
+    }
+
+    a:active {
+      color: blue;
+    }
+
+    a:visited {
+      color: orange;
+    }
+
+    #ifff {
+      background-color: white;
+    }
+
+    img {
+      display: block;
+      margin-top: 130px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      border-radius: 20%;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border: 2px solid black;
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    tr {
+      background-color: white;
+    }
+
+    td {
+      border: 1px solid red;
+    }
+
+    th {
+      color: red;
+    }
+
+    #name {
+      color: red;
+      font-size: 24px;
+    }
+
+    #red {
+      color: red;
+    }
+
+    #blue {
+      color: blue;
+    }
+
+    #yellow {
+      color: yellow;
+    }
+
+    #red {
+      color: red;
+    }
+
+    #orange {
+      color: orange;
+    }
+
+    .dots {
+      font-size: 60px;
+      
+    }
+
+    .letters {
+      font-family: "ITC Serif Gothic Heavy", sans-serif;
+      font-weight: lighter;
+      color: white;
+}
+
+    #right {
+      float: right;
+      width: 50%;
+
+    }
+    #left {
+      float: left;
+      width: 50%;
+    }
+
+    .content {
+      width: 75%;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    #header {
+  	 	position: fixed;
+  		top: 0;
+  		left: 50%;
+  		transform: translateX(-50%);
+  		width: 100%;
+  		height: 120px; /* Set the height of the header */
+  		background-color: #333; /* Add a background color */
+  		margin-bottom: 20px;
+  		text-align: center; /* Center the text horizontally */
+
+    }
+   /* .relpos {
+    	position: relative; -- it shifts the object from it current position*/
+    	position: absolute;/* not like relative it shifts the object from top left corner---we can combine relative and absolute positioning, 
+
+    	top: 0px;
+    	left: 0px;
+    }
+    .content {
+    	position: relative;
+    	border-radius: 2px solid black;
+    	height: 0px;
+    	width: 0px;
+    	top: 0px;
+    	left: 0px;*/
+    	/*-we can combine relative and absolute positioning,  here .replos is located inside of the .content(div), and here .replos is shifted from the top left border corner of the div(.content)
+
+
+      priority of the css
+       all the time when they have inline style , it takes the top priorioty, 
+       after it document type style sheet after it external style sheet takes the priority!!!  */
+
+    }
